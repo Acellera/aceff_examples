@@ -6,9 +6,9 @@ This python package provides an ASE calculator for AceFF and a OpenMM-ML potenti
 There are 3 example notebooks in the examples folder.
 They can be run in Google Colab or locally.
 - Single point energy calculator with ASE.
-    - `./notebooks/single_point_calculation.ipynb`
+    - `./notebooks/aceff_single_point_calculation.ipynb`
 - Running MD for a small molecule in vacuum with OpenMM.
-    - `./notebooks/aceff_in_vacuum_example.ipynb`
+    - `./notebooks/aceff_MD_example.ipynb`
 - Running MD for a protein ligand complex using MM/ML mechanical embedding scheme with OpenMM. 
     - `./notebooks/aceff_protein_ligand.ipynb`
 
@@ -22,3 +22,6 @@ and depending on wich example
 - `ase`
 
 For the MD examples you will need a CUDA GPU.
+
+The AceFF model files need to be downloaded from HuggingFace: 
+https://huggingface.co/Acellera
