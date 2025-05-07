@@ -1,0 +1,2 @@
+figures/ligand_testset.png filter=lfs diff=lfs merge=lfs -text
+figures/torsion_benchmark.png filter=lfs diff=lfs merge=lfs -text
