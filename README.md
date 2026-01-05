@@ -13,8 +13,7 @@ They can be run in Google Colab or locally.
 - Batched MD
     - `./notebooks/aceff_batched_MD.ipynb`
 
-
-
+    
 ## Python Environment for running locally
 You will need to install:
 - `torchmd-net`
@@ -26,5 +25,5 @@ and depending on which example
 
 For the MD examples you will need a CUDA GPU.
 
-The AceFF model files need to be downloaded from HuggingFace: 
+The AceFF model files can be downloaded from HuggingFace: 
 https://huggingface.co/Acellera
